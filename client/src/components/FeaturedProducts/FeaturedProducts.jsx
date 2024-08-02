@@ -1,6 +1,6 @@
 import React from "react";
 import "./FeaturedProducts.scss";
-import Card from "../../Card/Card";
+import Card from "../Card/Card";
 
 const FeaturedProducts = ({ type }) => {
   const data = [
@@ -22,7 +22,7 @@ const FeaturedProducts = ({ type }) => {
       price: 12,
     },
     {
-      id: 2,
+      id: 3,
       img: "https://images.pexels.com/photos/1457983/pexels-photo-1457983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Skirt",
       isNew: true,
@@ -30,7 +30,7 @@ const FeaturedProducts = ({ type }) => {
       price: 12,
     },
     {
-      id: 2,
+      id: 4,
       img: "https://images.pexels.com/photos/2065200/pexels-photo-2065200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Hat",
       isNew: true,
